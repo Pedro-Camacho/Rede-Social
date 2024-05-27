@@ -1,0 +1,27 @@
+.criar-post{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left   ;
+    max-width: fit-content;    
+}
+.texto-post{
+    width: 400px;
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.categoria-post{
+    width: fit-content;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+.img-post{
+    width: fit-content;
+    margin-bottom: 20px;
+    border-style: dashed;
+    border-radius: 4px;
+}
