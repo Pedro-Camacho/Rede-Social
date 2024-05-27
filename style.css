@@ -1,27 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
+*{
+    font-family: "Reddit Mono", monospace;
+    font-weight: 300;
+    margin: 0px;
+}
+
+header{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(70, 150, 216);
+}
+header h1{
+    padding-left: calc(100rem/2);
+    font-weight: 500;
+}
+#feed{
+    margin-top: 150px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .criar-post{
-    width: 600px;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
+
+    margin-top: 60px;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: left   ;
     max-width: fit-content;    
+    background-color: rgb(70, 150, 216);
+    
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 8px 8px rgba(70, 150, 216, 0.26);
+}
+.criar-post h3{
+    margin-top: 20px;
 }
 .texto-post{
     width: 400px;
     height: 150px;
-    margin-bottom: 20px;
-    border-radius: 15px;
+    border-radius: 5px;
+    padding: 19px;
+
 }
 .categoria-post{
+    margin-top: 5px;
     width: fit-content;
     margin-bottom: 20px;
     border-radius: 6px;
 }
-.img-post{
-    width: fit-content;
+.img1-post{ 
     margin-bottom: 20px;
-    border-style: dashed;
+    margin-top: 5px;
+    border-color: rgba(0, 0, 255, 0.212);
     border-radius: 4px;
+}
+.img2-post{ 
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-color: rgba(0, 0, 255, 0.212);
+    border-radius: 4px;
+}
+.img3-post{ 
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-color: rgba(0, 0, 255, 0.212);
+    border-radius: 4px;
+}
+
+#btnPostar{
+    width: fit-content;
+    margin-top: 16px;
+    border-radius: 2px;
+    border-style:inherit;
+    
+    box-shadow: 2px 2px rgba(0, 0, 255, 0.212);
+}
+
+.slider{
+    position: relative;
+    width: 100%;
+    
+    overflow: hidden;
+}
+.slider img {
+    width: 20%;
+    display: none;
+
+}
+
+img.displaySlide{
+    display: block
 }
